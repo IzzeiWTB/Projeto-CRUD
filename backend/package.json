@@ -1,0 +1,33 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "description": "API Full-Stack com Node.js, Express, PostgreSQL e MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "cross-env NODE_ENV=test jest --forceExit --detectOpenHandles"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.8.0",
+    "sequelize": "^6.37.0",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.2.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "dotenv": "^16.4.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "cross-env": "^7.0.3"
+  }
+}
